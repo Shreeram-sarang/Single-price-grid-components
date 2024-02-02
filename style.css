@@ -1,0 +1,87 @@
+.container{
+    display:grid;
+    place-content: center;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+}
+main{
+    height: 60vh;
+    width: 90vh;
+    display:grid;
+    grid-template-columns: repeat(2,45vh);
+    grid-template-rows:27vh 33vh;
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+    
+}
+.box{
+    text-align:left;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: .5rem;
+
+}
+.first{
+    grid-column: span 2;
+    grid-row: 1/1;
+    background-color: white;
+    color:rgba(160, 159, 159, 0.847);
+    line-height:25px;
+}
+.first h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+.first h3{
+    color:hsl(71, 78%, 52%);
+    font-weight: 700;
+    
+}
+.second{
+    background-color: hsl(179, 48%, 39%);
+    color: rgba(255, 255, 255, 0.934);
+}
+
+.price{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    align-items: center;
+}
+.price #left{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.price #right{
+    color:hsla(197, 10%, 86%, 0.848);
+}
+.second #last{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+}
+button{
+    width:90%;
+    height:40px;
+    border-color: transparent;
+    background-color: hsl(71, 78%, 52%);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: .2rem;
+    justify-self: center;
+}
+button:hover{
+    background-color: hsla(70, 89%, 52%, 0.773);
+    
+}
+.third{
+    background-color: hsl(179, 62%, 43%);
+    color:rgba(255, 255, 255, 0.838);
+    line-height:23px;
+    padding-right:4em;
+}
+footer{
+    background-color: rgb(23, 15, 28);
+    color: white;
+    padding:3px;
+    font-size: large;
+}
