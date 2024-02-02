@@ -33,7 +33,7 @@ main{
     line-height:25px;
 }
 .first h2{
-    color: hsl(179, 62%, 43%);
+    color: hsl(179, 85%, 41%);
     font-weight: 700;
 }
 .first h3{
@@ -42,11 +42,11 @@ main{
     
 }
 .second{
-    background-color: hsl(179, 48%, 39%);
+    background-color: hsl(179, 62%, 43%);
     color: rgba(255, 255, 255, 0.752);
 }
 .third{
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 85%, 41%);
     color:rgba(255, 255, 255, 0.752);
     line-height:23px;
     padding-right:4em;
@@ -80,7 +80,7 @@ button{
     cursor: pointer;
     border-radius: .2rem;
     justify-self: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.458);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.278);
 }
 button:hover{
     background-color: hsla(70, 89%, 52%, 0.773);
