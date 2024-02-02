@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display:grid;
     place-content: center;
@@ -39,10 +43,18 @@ main{
 }
 .second{
     background-color: hsl(179, 48%, 39%);
-    color: rgba(255, 255, 255, 0.934);
+    color: rgba(255, 255, 255, 0.752);
 }
-
-.price{
+.third{
+    background-color: hsl(179, 62%, 43%);
+    color:rgba(255, 255, 255, 0.752);
+    line-height:23px;
+    padding-right:4em;
+}
+h3{
+    color: white;
+}
+.second .price{
     display: grid;
     grid-template-columns: 2fr 5fr;
     align-items: center;
@@ -59,7 +71,7 @@ main{
     margin-bottom: 2rem;
 }
 button{
-    width:90%;
+    width:95%;
     height:40px;
     border-color: transparent;
     background-color: hsl(71, 78%, 52%);
@@ -68,17 +80,13 @@ button{
     cursor: pointer;
     border-radius: .2rem;
     justify-self: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.458);
 }
 button:hover{
     background-color: hsla(70, 89%, 52%, 0.773);
     
 }
-.third{
-    background-color: hsl(179, 62%, 43%);
-    color:rgba(255, 255, 255, 0.838);
-    line-height:23px;
-    padding-right:4em;
-}
+
 footer{
     background-color: rgb(23, 15, 28);
     color: white;
